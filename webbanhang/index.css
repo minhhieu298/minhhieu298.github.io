@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: tahoma,arial,sans-serif,'lucida grande';
+}
+a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+a:hover{
+    color: rgb(212, 80, 80);
+}
+p{
+    font-size: 18px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+/*menu*/
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin: 0px 15px -20px;
+}
+.menu img:hover{
+    opacity: 15;
+}
+
+/*slide*/
+.slide{
+    margin-top: 30px;
+    position: relative;
+}
+.slide .left{
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 210px;
+}
+.slide .left h2{
+    font-size: 80px;
+    color: black;
+    font-weight: 200px;
+}
+.left p{
+    margin-top: 20px;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: rgb(125, 125, 189);
+    border-radius: 30px;
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer; /* tro vao button thi con chuot hien thi ban tay*/
+    margin-top: 30px;
+    border: none; 
+}
+.slide .right{
+    position: absolute;
+    bottom: 313px;
+    left: 90px;
+}
+.hidden1{
+    background-color: rgba(0,0,0,0);
+    color: #585555;
+    margin-left: -70px;
+    bottom: 313px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.hidden2{
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    color: #585555;
+    margin-left: -40px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    bottom: 313px;
+}
+.btn:hover{
+    background-color: #585555;
+}
+.hidden1:hover{
+    background-color: #cababa;
+}
+.hidden2:hover{
+    background-color: #cababa;
+}
+
+/*banner*/
+.banner{
+    margin-top: 20px;
+}
+.bannerL {
+    float: left;
+    width: 680px;
+    height: 590px;
+}
+.bannerR{
+    float: right;
+    width: 500px;
+    height: 600px; 
+}
+.text{
+    margin-left: 470px;
+    margin-top: -180px;
+    font-size: 45px;
+    color: rgb(236, 160, 59);
+}
+.view1{
+    margin-left: 560px;
+    text-transform: uppercase;
+    color: rgb(236, 160, 59);
+}
+.bannerR .text1{
+    margin-top: -530px;
+    padding-left: 40px;
+    font-size: 45px;
+}
+.bannerR .view2{
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+/*content*/
+.content{
+    float: left;
+    margin-left: 192px;
+}
+#title{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.sp, .ten,.gia,.mua{
+    width: 285px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+.sp{
+    margin-bottom: 10px;
+}
+.sp:first-child,.ten:first-child,.gia:first-child,.mua:first-child{
+    margin-left: 0;
+}
+/* thuộc tính khi chạm vào ảnh trên website sẽ tăng kích thước ảnh*/
+.sp img{
+    -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+                -o-transform: scale(1.5);
+                    transform: scale(1.5);
+}
+.sp img:hover{
+    -webkit-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+            -ms-transform: scale(1.0);
+                -o-transform: scale(1.0);
+                    transform: scale(1.0);
+}
+.ten p{
+    color: rgb(20 16 16);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gia{
+    font-size: 40px;
+    font-weight: bold;   
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gia span{
+    font-size: 20px;
+}
+.mua{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*bannner 2*/
+.text3{
+    margin-left: 470px;
+    margin-top: -180px;
+    font-size: 45px;
+    color: rgb(10, 10, 10);
+}
+.view3{
+    margin-left: 472px;
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+}
+.bannerR .text4{
+    margin-top: -300px;
+    padding-left: 360px;
+    font-size: 60px;
+}
+.bannerR .view4{
+    padding-left: 365px;
+    text-transform: uppercase;
+}
+
+/*footer*/
+.about{
+    width: 400px;
+    float: left;
+    margin-bottom: 20px;
+}
+.about #trai{
+    width: 70px;
+    height: 38px;
+    margin-right: 20px;
+    float: left;
+    
+}
+.about #phai{
+    width: 290px;
+    float: left;
+    
+}
+.contact{
+    width: 300px;
+    float: left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.contact p{
+    margin-top: 10px;
+}
+.link{
+    width: 500px;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+.footer h2{
+    margin-bottom: 10px;
+}
