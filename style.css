@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.container{
+    display: block;
+    width: 100%;
+}
+.container .head{
+    background-image: url('dongho.jpg');
+    width: 100%;
+    height: 750px;
+    min-height: 750px;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 20px;
+}
+.head .logo{
+    margin-left: 150px;
+    position: relative;
+    width: 320px;
+}
+.logo #img1{
+    position: absolute;
+}
+
+.head .nav ul{
+    display: flex;
+    padding-top: 35px;
+    list-style-type: none;
+    line-height: 5px;
+}
+.nav ul li{ 
+    padding: 10px 15px;
+}
+.nav ul li a{
+    text-transform: uppercase;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.head .icon ul{
+    display: flex;
+    padding-top: 27px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.icon{
+    margin-left: -20px;
+}
+.icon li{
+    padding: 10px 10px;
+}
+.icon li a i{
+    font-size: 20px;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.body{
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.body .title{
+    text-align: center;
+    margin-top: -50px;
+}
+.body .title h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00000099;
+    font-size: 40px;
+}
+.body .sanpham{
+    width: 900px;
+    display:  flex;
+    margin: 0px 130px;
+    position: relative;
+}
+.sanpham .clock-nam{
+    width: 40%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.clock-nam .sale{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: -320px;
+    margin-left: 35px;
+    position: absolute;
+}
+.sale p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.clock-nam .clock1{
+    text-align: center;
+    -webkit-transform: scale(0.7);
+	   -moz-transform: scale(0.7);
+	    -ms-transform: scale(0.7);
+	     -o-transform: scale(0.7);
+	        transform: scale(0.7);
+    transition: 0.5s;
+}
+.clock-nam .clock1:hover{
+	-webkit-transform: scale(0.9);
+	   -moz-transform: scale(0.9);
+	    -ms-transform: scale(0.9);
+	     -o-transform: scale(0.9);
+            transform: scale(0.9);
+    transition: 0.5s;
+    border: 1px dotted gray;
+}
+.clock1 p{
+    font-weight: bold;
+    color: gray;
+}
+.clock1 h6{
+    margin-top: 15px;
+    font-size: 19px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 30px;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    padding: 50px 150px;
+}
+.footer ul li{
+    color: #ffffff;
+    margin-left: 50px;
+}
+.footer li i{
+    font-size: 45px;
+}
+.footer li h4{
+    margin-left: 65px;
+    margin-top: -35px;
+}
+.footer li p{
+    margin-left: 65px;
+    color: gray;
+    font-weight: bold;
+}
