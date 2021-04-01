@@ -1,78 +1,133 @@
-*{
-    margin: 0;
+*
+{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
-:root{
-    --bg1 :#9836be;
-    --bg2 :#3498db;
-    --bg3 :#26ade4;
+.form-login
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to right top,#a418c8, #ff00d494,#00ffb8fa);
 }
-body{
-    background: linear-gradient(to right,var(--bg1),var(--bg2),var(--bg3));
+.form-box
+{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 0px #46555c8a;
 }
-.login h2{
-    margin-bottom: 20px;
-    display: inline-block;
-    color: grey;
-    width: 90%;
-    border-bottom: 1px solid rgb(134, 134, 134);
+.btn-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
 }
-.login{
-    width: 300px;
-    height: 350px;
-    background-color: white;
-    border: 1px solid rgb(177, 177, 177);
-    border-radius: 5px;
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    font-weight: 700;
+}
+button.toggle-btn{
+    right: -20px;
+}
+button#log{
+    left: 6px;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #ff006b;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn-icon
+{
+    margin: 30px auto;
     text-align: center;
-    margin: 70px auto;
-    padding-top: 20px;
 }
-.login input{
-    width: 200px;
-    height: 40px;
+.btn-icon img
+{
+    width: 30px;
+    margin: 0 12px;
+}
+img#anh {
+    width: 37px;
+}
+.form-group
+{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.sumbit-btn
+{
+    width: 40%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#a418c8, #ff00d494,#00ffb8fa);
     border: none;
     outline: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+} 
+
+.check-box
+{
+    margin: 30px 10px 30px 0;
 }
-.login img{
-    vertical-align: middle;
-    width: 25px;
+span
+{
+    color: #777;
+    font-size: 12px;
+    bottom: 69px;
+    position: absolute;
 }
-.check input{
-    width: 15px;
-    height: 12px;
+#Login
+{
+    left: 50px;
 }
-.box{
-    width: 250px;
-    height: auto;
-    border: 1px solid grey;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.box input{
-    font-size: 16px;
-}
-button{
-    width: 250px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(70, 112, 230);
-    color: white;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-a{
-    text-decoration: none;
-    
-}
-a:hover{
-    color: #318ac5;
-}
-#btn{
-    background-color: #00a400;
+#Register
+{
+    left: 450px;
+} 
+form#Register {
+    top: 140px;
 }
 
